@@ -2,17 +2,16 @@
 
 ## Description
 
-Hand Tracking AR Experience is a browser-based augmented reality application built using MediaPipe Hands and JavaScript. The application tracks hand movements in real time through a webcam, recognizes gestures such as pinch and open hand, and creates interactive visual effects directly in the browser.
+Hand Tracking AR Experience is a browser-based augmented reality application built using MediaPipe Hands and JavaScript. It tracks hand movements in real time through a webcam, recognizes gestures such as pinch and open hand, and creates interactive visual effects directly in the browser.
 
 ## Features
 
 - Real-time hand tracking
+- Supports up to two hands
 - Gesture recognition
 - Pinch detection
-- Shockwave effects
-- Hand landmark visualization
-- Dynamic hand connections
-- Two-hand tracking support
+- Interactive shockwave effects
+- Dynamic hand-to-hand connections
 - FPS monitoring
 - Browser-based AR experience
 
@@ -30,7 +29,7 @@ Hand Tracking AR Experience is a browser-based augmented reality application bui
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hand-tracking-ar-experience.git
+git clone https://github.com/nandinisingh156/hand-tracking-ar-experience.git
 ```
 
 Run a local server:
@@ -48,17 +47,17 @@ http://localhost:8000
 ## Usage
 
 1. Allow camera permissions.
-2. Click Enter Experience.
+2. Click "Enter Experience".
 3. Show your hand to the webcam.
 4. Perform gestures such as pinch and open hand.
-5. Watch the interactive AR effects respond in real time.
+5. Watch the AR effects respond in real time.
 
 ## Project Structure
 
 ```text
 hand-tracking-ar-experience/
 │
-├── hand_tracking_ar_no_sprinkles.html
+├── index.html
 └── README.md
 ```
 
@@ -67,14 +66,14 @@ hand-tracking-ar-experience/
 - Augmented Reality
 - Computer Vision
 - Human-Computer Interaction
-- Gesture-Controlled Interfaces
+- Gesture-Based Interfaces
 
-## Future Improvements
+## Future Enhancements
 
 - Custom gesture recognition
+- Mobile optimization
 - 3D object interaction
-- Mobile support
-- AI gesture classification
+- AI-powered gesture classification
 
 ## Author
 
